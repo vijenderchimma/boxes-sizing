@@ -1,0 +1,114 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto";
+    padding: 20px;
+  }
+  .main-heading {
+    color: #0f172a;
+    font-size: 35px;
+    padding-bottom: 20px;
+  }
+  .box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .paragraph {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 25px;
+  }
+  .box1 {
+    background-color: #fbbf24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+  }
+  .box2 {
+    background-color: #38bdf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+  }
+  .box3 {
+    background-color: #ec4899;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .main-container {
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    padding: 20px;
+  }
+  .main-heading {
+    color: #0f172a;
+    font-size: 35px;
+    padding-bottom: 20px;
+  }
+  .box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80%;
+  }
+  .paragraph {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 25px;
+  }
+  .box1 {
+    background-color: #fbbf24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+  }
+  .box2 {
+    background-color: #38bdf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  }
+  .box3 {
+    background-color: #ec4899;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+  }
+}
